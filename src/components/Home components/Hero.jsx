@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import banner from '../assets/banner.svg'
-import arrow from '../assets/arror-btn.svg'
+import banner from '../../assets/banner.svg'
+import arrow from '../../assets/arror-btn.svg'
 
 const Hero = () => {
   return (

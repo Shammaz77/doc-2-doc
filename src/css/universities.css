@@ -1,0 +1,57 @@
+.top-universities {
+	background-color: #E9E3ED;
+	padding: 30px 0px;
+}
+.our-universities-title {
+	font-size: 15px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	width: max-content;
+	background-color: #fff;
+	padding: 13px 26px;
+	border-radius: 20px;
+}
+.top-university-title{
+	text-transform: uppercase;
+	font-size: 45px;
+  text-transform: uppercase;
+  padding-top: 2%;
+	padding-bottom: 1%;
+  font-weight: 700;
+	color: #999999;
+}
+.black-text{
+	color: #000;
+}
+.text-top-universities{
+	font-size: 18px;
+	color: #556987;
+}
+.contact-us-universities{
+	  padding: 10px 35px !important;
+  border-radius: 25px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
