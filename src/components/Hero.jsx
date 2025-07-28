@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import banner from '../assets/banner.svg'
+import arrow from '../assets/arror-btn.svg'
+
 const Hero = () => {
   return (
     <div className='sero-section-home'>
@@ -41,9 +43,11 @@ const Hero = () => {
       </div>
       <div className="container-full">
         <img src={banner} className='banner-image' alt="" />
+        <Link to='/'>
+        <img src={arrow} className='arrow-btn-img' alt="" />
+        </Link>
       </div>
     </div>
   )
 }
-
 export default Hero
