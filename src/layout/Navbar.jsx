@@ -14,6 +14,7 @@ const Navbar = () => (
 			<div className="navigation-buttons">
 				<Link to='/' className='btn exam-portal-btn primarycolor'>Exam Portal</Link>
 				<Link to='/' className='btn contact-us-btn secondarycolor'>Contact Us</Link>
+				<i class="ri-menu-line"></i>
 			</div>
 		</div>
 	</div>
