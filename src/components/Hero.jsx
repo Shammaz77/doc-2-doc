@@ -1,5 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
+import banner from '../assets/banner.svg'
 const Hero = () => {
   return (
     <div className='sero-section-home'>
@@ -22,8 +22,8 @@ const Hero = () => {
               </select>
             </div>
             <div className="col-lg-6">
-              <label htmlFor="country-select" className='mb-2 label-bold'>What is your budget (Course Fee/year)?</label>
-              <select className="form-select" id="country-select" aria-label="Default select example">
+              <label htmlFor="budget-select" className='mb-2 label-bold'>What is your budget (Course Fee/year)?</label>
+              <select className="form-select" id="budget-select" aria-label="Default select example">
                 <option value="">3 LACK</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -38,6 +38,9 @@ const Hero = () => {
           </div>
         </div>
 
+      </div>
+      <div className="container-full">
+        <img src={banner} className='banner-image' alt="" />
       </div>
     </div>
   )

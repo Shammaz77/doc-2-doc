@@ -80,7 +80,11 @@ body{
   display: table !important;
   margin-top: 3% !important;
 }
-
+.banner-image{
+  width: 100%;
+  margin-top: 3%;
+  height: auto;
+}
 
 
 
