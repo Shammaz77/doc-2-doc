@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 const Layout = () => (
   <>
     <Navbar />
-    <main style={{ minHeight: '80vh', padding: '1rem' }}>
+    <main >
       <Outlet />
     </main>
     <Footer />

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Manrope", sans-serif !important;
+}
+.container-main{
+  width: 80%;
+  margin: auto;
+}
+.primarycolor{
+  background-color: #511B4D !important;
+  color: #fff !important;
+}
+.secondarycolor{
+  background-color: #F2B94A !important;
+}
+.navbar-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.exam-portal-btn{
+  padding: 10px 25px !important;
+  border-radius: 25px !important;
+  margin-right: 20px;
+}
+.contact-us-btn{
+  padding: 10px 25px !important;
+  border-radius: 25px !important;
+}
+.logo-img{
+  width: 200px;
+}
+.title-hero{
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding-top: 2%;
+  color: #511B4D;
+  font-weight: 800;
+}
+.gradient-golden-color {
+  background: linear-gradient(90deg, #ddad4c, #FFC451, #cca659);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+.description-home{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  color: #556987;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
