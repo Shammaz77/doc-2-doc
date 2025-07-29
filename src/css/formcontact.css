@@ -1,0 +1,96 @@
+.form-section-contact {
+	padding: 5% 0px;
+	background-color: #F2B94A;
+}
+.button-container-students{
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+.grey-form{
+	color: #795D25;
+}
+.form-contact .form-group{
+	margin-bottom: 20px;
+}
+.form-control::placeholder{
+	font-size: 15px;
+}
+.form-contact .form-group label{
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.contactus-btn-form{
+	background-color: #511B4D !important;
+	padding: 12px 85px !important;
+	color: #fff !important;
+	border: none !important;
+	border-radius: 25px !important;
+	width: max-content;
+	margin: auto;
+	display: table !important;
+	margin-top: 1% !important;
+}
+.form-check{
+	width: max-content !important;
+	margin: auto !important;
+	display: table !important;
+	padding-top: 2%;
+}
+.sub-form{
+	padding-bottom: 2%;
+	padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

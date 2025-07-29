@@ -1,6 +1,6 @@
 .top-universities {
 	background-color: #E9E3ED;
-	padding: 30px 0px;
+	padding: 30px 0px 60px 0px;
 }
 .our-universities-title {
 	font-size: 15px;
@@ -30,23 +30,144 @@
 	  padding: 10px 35px !important;
   border-radius: 25px !important;
 }
+.price-grey{
+	font-size: 13px;
+	color: #999999;
+}
+.university-box{
+	width: 100%;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+.university-dv{
+	margin-bottom: 4%;
+}
+.univetrsity-one{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.university-img{
+	width: 100%;
+}
+.university-name{
+	font-size: 18px;
+	font-weight: 700;
+	width: 70%;
+}
+.univetrsity-one{
+	padding: 30px 0px 20px 0px;
+	border-bottom: 1px solid #E9E3ED;
+	margin-bottom: 30px;
+}
+
+
+.university-table-box{
+	display: flex;
+	justify-content: space-between;
+	width: 46%;
+}
+.table-row{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px 0px;
+	border-bottom: 1px solid #f3f0f5;
+}
+.table-title{
+	font-size: 14px;
+	color: #999999;
+	font-weight: 400;
+}
+.table-desc{
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+}
+.no-border{
+	border-bottom: none;
+}
+.slider-universitie-container{
+	width: 90%;
+	margin-left: auto;
+	overflow: hidden;
+}
 
 
 
 
+/* University Slider Styles */
+.university-slider-container {
+  position: relative;
+  padding-bottom: 60px; /* Space for navigation controls */
+}
 
+/* Slick slider spacing */
+.university-slider-container .slick-slide {
+  padding: 0 10px; /* Add spacing between slides */
+}
 
+.university-slider-container .slick-list {
+  margin: 0 -10px; /* Compensate for padding */
+}
 
+/* Custom Navigation Controls */
+.slider-nav-controls {
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+	margin-top: 30px;
+}
+.slider-nav-btn {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+	border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.prev-btn{
+	background-color: #f2f0f3 !important;
+	color: #c9c9c9 !important;
+}
+.slider-nav-btn:hover {
+  transform: translateY(-2px);
+}
+.slider-nav-btn:active {
+  transform: translateY(0);
+}
+.slider-nav-btn svg {
+  transition: color 0.3s ease;
+}
+.university-box {
+  margin: 0 !important; /* Remove any existing margins */
+}
 
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+  .slider-nav-controls {
+    bottom: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+  
+  .slider-nav-btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .slider-nav-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+}
 
 
 

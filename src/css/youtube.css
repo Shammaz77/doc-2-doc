@@ -1,0 +1,66 @@
+.youtube-section {
+	padding: 5% 0px;
+	background-color: #E9E3ED;
+}
+.youtube-box iframe{
+	border-radius: 20px;
+}
+.bottom-space-youtube{
+	padding-bottom: 3%;
+}
+.youtube-slide{
+	padding: 15px;
+}
+.slider-nav-controls{
+	width: max-content !important;
+	margin: auto;
+	padding-top: 3%;
+}
+.youtube-navigate{
+	padding: 11px 35px !important;
+	color: #fff !important;
+	font-weight: 700 !important;
+	border-radius: 25px !important;
+	width: max-content !important;
+	margin: auto !important;
+	display: table !important;
+	margin-top: 2%;
+	display: flex !important;
+	align-items: center !important 	;
+}
+.youtube-icon-img{
+	width: 25px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

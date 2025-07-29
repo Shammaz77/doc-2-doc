@@ -1,0 +1,111 @@
+.connect-students-container{
+	background-color: #E9E3ED;
+	padding: 5% 0px;
+}
+.cnct-btn{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.title-connect{
+	text-align: center;
+  font-size: 45px;
+	color: #000000;
+	font-weight: 700;
+	padding-top: 1%;
+  text-transform: uppercase;
+}
+.grey-connect{
+	color: #999999;
+}
+.student-contact-box{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+.student-image-connect{
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+.contry-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F7F7F7;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.student-place{
+	font-size: 17px;
+	text-align: center;
+}
+.student-name{
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 4%;
+}
+.message-btn{
+	padding: 10px 20px !important;
+	border: 1px solid #b4b4b4 !important;
+	display: block !important;
+	border-radius: 25px !important;
+	font-weight: 700 !important;
+	margin-top: 4%;
+}
+.book-btn{
+	width: 100%;
+	padding: 10px 20px !important;
+	border-radius: 25px !important;
+	margin-top: 4%;
+	font-weight: 700 !important;
+}
+.active-student-slider{
+	border: 4px solid #5a0e0eb9;
+}
+.slider-item-wrapper{
+	padding: 0px 15px;
+}
+.students-slider-container{
+	overflow: hidden;
+	padding-top: 3%;
+}
+.slider-nav-controls{
+	width: max-content;
+	margin: auto;
+	padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

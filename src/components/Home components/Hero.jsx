@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="row">
             <div className="col-lg-6">
               <label htmlFor="country-select" className='mb-2 label-bold'>Which country do you want to study?</label>
-              <select className="form-select" id="country-select" aria-label="Default select example">
+              <select className="form-select form-control-lg" id="country-select" aria-label="Default select example">
                 <option value="">Georgia</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
             <div className="col-lg-6">
               <label htmlFor="budget-select" className='mb-2 label-bold'>What is your budget (Course Fee/year)?</label>
-              <select className="form-select" id="budget-select" aria-label="Default select example">
+              <select className="form-select form-control-lg" id="budget-select" aria-label="Default select example">
                 <option value="">3 LACK</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>

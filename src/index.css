@@ -33,11 +33,11 @@ body{
   border-radius: 25px !important;
 }
 .logo-img{
-  width: 200px;
+  width: 180px;
 }
 .title-hero{
   text-align: center;
-  font-size: 45px;
+  font-size: 55px;
   text-transform: uppercase;
   padding-top: 3%;
   color: #511B4D;
@@ -91,7 +91,9 @@ body{
   display: table !important;
   margin-top: -80px;
 }
-
+.navigation-buttons i{
+  color: #808080;
+}
 
 
 

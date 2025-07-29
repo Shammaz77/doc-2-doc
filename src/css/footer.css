@@ -1,0 +1,176 @@
+.footer-container{
+	background-color: #511B4D;
+	padding: 3% 3%;
+	margin-top: 3%;
+	border-radius: 20px;
+}
+.logo-footer{
+	width: 100%;
+}
+.footer-box ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.footer-box ul li a{
+	color: #fff !important;
+	text-decoration: none;
+}
+.social-media{
+	display: flex;
+	align-items: center;
+	padding-top: 5%;
+}
+.icon-social-media{
+	width: 40px;
+	margin-right: 10px;
+}
+.title-icon{
+	display: flex;
+	align-items: center;
+	margin-bottom: 7px;
+	color: #fff;
+}
+.title-icon i{
+
+}
+.fff{
+	font-weight: 600;
+}
+.dv-contact-box{
+	padding-bottom: 20px;
+}
+.border-box-footer{
+	border: 1px solid #9e9e9e;
+	margin-top: 1%;
+	padding: 14px 40px;
+	border-radius: 15px;
+	margin-bottom: 35px;
+}
+.contant-terms{
+	width: max-content;
+	margin-left: auto;
+}
+.terms-link{
+	color: #000;
+	margin-right: 15px;
+	text-decoration: none;
+	list-style: none;
+}
+.copyright{
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu Icon */
+.menu-icon {
+  cursor: pointer;
+}
+
+/* Sidebar Overlay */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 50px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-overlay.sidebar-open {
+  transform: translateX(0);
+}
+
+/* Close Icon */
+.close-icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+  text-align: right;
+}
+
+/* Sidebar Links */
+.sidebar-link {
+  display: block;
+  color: #333;
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar-overlay {
+    padding-right: 30px;
+  }
+  
+  .sidebar-link {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    padding: 8px 15px;
+  }
+  
+  .close-icon {
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-overlay {
+    padding-right: 20px;
+  }
+  
+  .sidebar-link {
+    font-size: 1.2rem;
+    margin: 12px 0;
+    padding: 6px 12px;
+  }
+}
