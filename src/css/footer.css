@@ -1,6 +1,6 @@
 .footer-container{
 	background-color: #511B4D;
-	padding: 3% 3%;
+	padding: 5% 3%;
 	margin-top: 3%;
 	border-radius: 20px;
 }
@@ -22,7 +22,7 @@
 }
 .icon-social-media{
 	width: 40px;
-	margin-right: 10px;
+	margin-right: 19px;
 }
 .title-icon{
 	display: flex;
@@ -59,7 +59,13 @@
 .copyright{
 	margin-bottom: 0px;
 }
-
+.arrow-nav{
+  padding: 5px;
+  background-color: #ffff;
+  border-radius: 50%;
+  width: 30px;
+  margin-left: 15px;
+}
 
 
 
@@ -119,10 +125,10 @@
   position: absolute;
   top: 30px;
   left: 30px;
-  font-size: 2rem;
-  color: #333;
+  font-size: 75px;
+  color: #0000004D;
   cursor: pointer;
-  z-index: 10000;
+  z-index: 100;
 }
 
 /* Sidebar Navigation */
@@ -133,18 +139,81 @@
 /* Sidebar Links */
 .sidebar-link {
   display: block;
-  color: #333;
-  font-size: 2rem;
+  color: #511b4d77;
+  font-size: 45px;
+  font-weight: 800;
   text-decoration: none;
+  text-transform: uppercase;
   margin: 20px 0;
   padding: 10px 20px;
   transition: all 0.3s ease;
   border-radius: 5px;
 }
+.join-text{
+  font-weight: 600;
+  padding-top: 4%;
+}
+.sidebar-icons li{
+  list-style: none;
+  margin-right: 20px;
+}
+.sidebar-icons {
+  display: flex;
+  padding-top: 1%;
+}
+
+
+
+
+
+
+
 
 
 
 /* Responsive Design */
+@media (max-width: 1650px) {
+.sidebar-link {
+  font-size: 40px;
+  margin: 8px 0;
+  padding: 8px 20px;
+}
+}
+@media (max-width: 1450px) {
+.sidebar-link {
+  font-size: 30px;
+    margin: 5px 0;
+  padding: 5px 20px;
+  }
+  .join-text{
+    font-size: 16px;
+  }
+  .close-icon {
+    font-size: 55px;
+  }
+  .icon-social-media{
+	width: 30px;
+	margin-right: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .exam-portal-btn{
+    display: none !important;
+  }
+  .contact-us-btn{
+   display: none !important;
+  }
+  .title-hero {
+    font-size: 45px;
+    padding-top: 7%;
+  }
+  .container-dropdown {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
 @media (max-width: 768px) {
   .sidebar-overlay {
     padding-right: 30px;

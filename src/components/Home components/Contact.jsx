@@ -14,31 +14,63 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="contact-sectiobn-innner mt-4">
-						<div className="row">
-							<div className="col-lg-6">
-								<label htmlFor="country-select" className='mb-2 label-bold'>Your NEET Score?</label>
-								<select className="form-select form-select-lg" id="country-select" aria-label="Default select example">
-									<option value="">567</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-							</div>
-							<div className="col-lg-6">
-								<label htmlFor="budget-select" className='mb-2 label-bold'>What is your budget (Course Fee/year)?</label>
-								<select className="form-select form-select-lg" id="budget-select" aria-label="Default select example">
-									<option value="">3 LACK</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-							</div>
-							<div className="col-lg-12">
-								<div className="search-button-dv">
-									<Link to='/' className='btn search-btn-contact secondarycolor'>Search</Link>
+						<form>
+							<div className="row">
+
+								<div className="col-lg-6">
+									<div className="form-group-contact ">
+										<label for="exampleInputEmail1" className='mb-2'>Name</label>
+										<input type="name" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name" />
+									</div>
+								</div>
+								<div className="col-lg-6">
+									<div className="form-group-contact ">
+										<label for="exampleInputEmail1" className='mb-2'>Email</label>
+										<input type="name" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" />
+									</div>
+								</div>
+								<div className="col-lg-6">
+									<div className="form-group-contact ">
+										<label for="exampleInputEmail1" className='mb-2'>Phone Number</label>
+										<input type="number" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Number" />
+									</div>
+								</div>
+								<div className="col-lg-6">
+									<div className="form-group-contact ">
+										<label for="exampleInputEmail1" className='mb-2'>Neet Score</label>
+										<input type="number" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Neet Score" />
+									</div>
+								</div>
+								<div className="col-lg-6">
+									<div className="form-group-contact ">
+										<label for="exampleInputEmail1" className='mb-2'>Place</label>
+										<input type="text" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Place" />
+									</div>
+								</div>
+								<div className="col-lg-12">
+									<div className="checkk">
+										<div className="form-checkk">
+											<input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+												<label className="form-check-label right-space" for="flexCheckDefault">
+											 	Are you planning to prepare for the NEET exam?
+												</label>
+										</div>
+									</div>
+								</div>
+								<div className="col-lg-12">
+									<div className="search-button-dv">
+										<Link to='/' className='btn search-btn-contact secondarycolor'>Register Now</Link>
+									</div>
 								</div>
 							</div>
-						</div>
+
+						</form>
+
+
+
+
+
+
 					</div>
 				</div>
 			</div>

@@ -25,11 +25,14 @@ body{
   padding: 20px 0;
 }
 .exam-portal-btn{
-  padding: 10px 25px !important;
+  padding: 12px 35px !important;
   border-radius: 25px !important;
+  font-weight: 700 !important;
 }
 .contact-us-btn{
   padding: 10px 25px !important;
+  color: #511B4D !important;
+  font-weight: 700 !important;
   border-radius: 25px !important;
 }
 .logo-img{
@@ -62,7 +65,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 .container-dropdown{
   width: 60%;
@@ -98,10 +101,49 @@ body{
 
 
 
+/* responsive  */
 
+@media (max-width:1470px) {
+.container-main{
+  width: 90%;
+  margin: auto;
+  }
+  .container-dropdown{
+  width: 80%;
+  margin: auto;
+  }
+  .title-hero{
+  font-size: 45px;
+  padding-top: 1%;
+  }
+  .description-home{
+  padding-bottom: 2%;
+  }
+  .arrow-btn-img{
+  width: 110px;
+  margin-top: -60px;
+  }
+  /* treaseure  */
+}
+@media (max-width:1350px) {
 
+}
+@media (max-width:991px) {
+  .form-dropdown-home{
+    padding-bottom: 4%;
+  }
+}
 
-
+@media (max-width:700px) {
+  .title-hero {
+    font-size: 32px;
+    padding-top: 7%
+  }
+  .container-dropdown {
+    width: 95%;
+    margin: auto;
+  }
+}
 
 
 

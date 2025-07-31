@@ -1,0 +1,75 @@
+.university-detail-page{
+  padding: 2% 0px;
+}
+.vedio-img-detail{
+	width: 100%;
+}
+.vedio-slider-dv{
+	padding: 40px 0px;
+}
+.flag-un{
+	width: 60px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.university-name-section{
+	display: flex;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E9E3ED;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.un-dv{
+	padding-left: 25px;
+}
+.un-name-full{
+	font-size: 20px;
+	font-weight: 700;
+}
+.sub-ab-un{
+	font-weight: 800;
+}
+.span-text-un{
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+}
+.half-un-dv-det{
+		padding-bottom: 2px;
+	border-bottom: 1px solid #E9E3ED;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.title-ab-un{
+	font-size: 17px;
+}
+.get-adm-btn{
+	padding: 11px 250px !important;
+	color: #511B4D !important;
+	width: 100%;
+	font-weight: 700;
+	border-radius: 25px !important;
+}
+.talk-btn-st{
+	font-weight: 700 !important;
+	color: black !important;
+	width: 100% !important;
+	border: 2px solid #E0E0E0 !important;
+	padding: 11px 250px !important;
+	border-radius: 25px !important;
+}
+.talk-btn-dv{
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

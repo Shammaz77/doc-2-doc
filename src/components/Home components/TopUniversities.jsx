@@ -6,7 +6,7 @@ import flag from '../../assets/flag.png'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-
+import arrow from '../../assets/arrow.svg';
 const TopUniversities = () => {
 	const sliderRef = useRef(null)
 
@@ -96,7 +96,7 @@ const TopUniversities = () => {
 							<h3 className='our-universities-title mb-0'>Top Universities</h3>
 							<h1 className='top-university-title'>OUR Top <span className='black-text'>10 UNIVERSITIES</span> </h1>
 							<p className='text-top-universities'>Carefully selected based on global rankings, affordability, quality of education, and student satisfaction, these top 10 universities are trusted by thousands of aspiring doctors. Each offers world-class MBBS programs with international recognition and a strong track record of success.</p>
-							<Link to='/' className='btn contact-us-universities secondarycolor'> 	Contact us </Link>
+							<Link to='/' className='btn contact-us-universities secondarycolor'> 	Contact us <img src={arrow} className='arrow-nav' alt="" /> </Link>
 						</div>
 					</div>
 				</div>

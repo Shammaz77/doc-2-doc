@@ -33,6 +33,7 @@
 	width: 90%;
 	margin: auto;
 	text-align: center;
+  padding-top: 1%;
 }
 .bg-slider-section{
 	background-image: url('../assets/treasure-bg.svg');
@@ -214,6 +215,39 @@
   opacity: 1;
 }
 
+
+
+
+
+
+@media (max-width:1450px) {
+  .student-slider-wrapper {
+  padding: 10px 0 100px 0; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .student-slider-wrapper {
@@ -263,7 +297,19 @@
     right: -20px;
   }
 }
-
+@media (max-width: 700px) {
+  .title-treasure {
+    font-size: 30px;
+    padding-top: 8%;
+  }
+  .treasure-descrption {
+    font-size: 14px;
+  }
+  .container-slider {
+    width: 100%;
+    margin: auto;
+  }
+}
 @media (max-width: 480px) {
   .student-slider-wrapper {
     padding: 40px 0 60px 0; /* Increased padding for small screens */
@@ -294,3 +340,32 @@
     display: none !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

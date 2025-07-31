@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
-
+import insta from '../assets/instagram.svg'
+import f from '../assets/f.svg'
+import t from '../assets/t.svg'
+import arrow from '../assets/arrow.svg';
 const Navbar = () => {
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -24,9 +27,9 @@ const Navbar = () => {
 					</div>
 					<div className="navigation-buttons">
 						<Link to='/' className='btn exam-portal-btn primarycolor'>Exam Portal</Link>
-						<Link to='/' className='btn contact-us-btn secondarycolor'>Contact Us</Link>
-						<i 
-							className="ri-menu-line menu-icon" 
+						<Link to='/' className='btn contact-us-btn secondarycolor'>Contact Us <img src={arrow} className='arrow-nav' alt="" /> </Link>
+						<i
+							className="ri-menu-line menu-icon"
 							onClick={toggleSidebar}
 						></i>
 					</div>
@@ -36,7 +39,7 @@ const Navbar = () => {
 			{/* Full-Screen Sidebar */}
 			<div className={`sidebar-overlay ${isSidebarOpen ? 'sidebar-open' : ''}`}>
 				{/* Close Icon */}
-				<i 
+				<i
 					className="ri-close-line close-icon"
 					onClick={closeSidebar}
 				></i>
@@ -49,17 +52,24 @@ const Navbar = () => {
 					<Link to='/about' className="sidebar-link" onClick={closeSidebar}>
 						About
 					</Link>
-					<Link to='/universities' className="sidebar-link" onClick={closeSidebar}>
+					<Link to='/university-listing' className="sidebar-link" onClick={closeSidebar}>
 						Universities
 					</Link>
 					<Link to='/about-us' className="sidebar-link" onClick={closeSidebar}>
 						About Us
 					</Link>
-					<Link to='/contact' className="sidebar-link" onClick={closeSidebar}>
+					<Link to='/contact-us' className="sidebar-link" onClick={closeSidebar}>
 						Contact Us
 					</Link>
 				</nav>
+				<h5 className='join-text'>Join our growing family on social media!</h5>
+				<div className="sidebar-icons">
+					<li><Link to='/'><img src={insta} className='icon-social-media' alt="" /></Link></li>
+					<li><Link to='/'><img src={t} className='icon-social-media' alt="" /></Link></li>
+					<li><Link to='/'><img src={f} className='icon-social-media' alt="" /></Link></li>
+				</div>
 			</div>
+
 		</>
 	);
 };

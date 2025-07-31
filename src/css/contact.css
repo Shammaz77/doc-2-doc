@@ -38,14 +38,17 @@
 	color: #fff;
 }
 .search-btn-contact{
-	padding: 10px 50px !important;
-	width: max-content;
+	padding: 13px 30px !important;
+	width: 35% !important;
 	margin: auto;
-	display: table;
+	font-weight: 600 !important;
+	display: table !important;
 	margin-top: 3%;
   border-radius: 25px !important;
 }
-
+.right-space{
+	margin-left: 15px;
+}
 
 
 
